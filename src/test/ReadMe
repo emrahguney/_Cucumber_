@@ -1,0 +1,46 @@
+1- Yeni projeye tıklattım-> Proje Tipi olarak MAVEN
+   seçildi.satandart sonlandırıldı.
+
+2- Klasör yapısını inceledik:
+   main -> Developer ın source kodları
+   test -> Testerın kodları
+
+3- Mavenın verdiği düzenli yapının kendi tarafımızda ,
+   bizde kendi düzenli klasör yapımızı oluşturacağız.
+   Klasörler
+
+   FeatureFiles   -> Senaryolarımızın olduğu klasör
+   StepDefinitions-> Senaryoların çalışan adımları - metodları burada olacak
+   Pages          -> Page Object Model sayfalarımız POM (@FindBy)
+   Utilities      -> Driver ve diğer tekrar kullanılacak metodlarımız
+   Runners        -> Çalıştırıcılar
+
+
+4- Ayarlar
+    A) Intellij Editor ayarlari
+        2 tane Plugin ekleyecegiz
+            1- Cucumber for Java
+            2- Gherkin Language ->https://cucumber.io/docs/gherkin/reference/#keywords
+
+    B) POM.xml -> Project Object Model Ayarlari
+
+        Selenium
+        testNG
+        Cucumber
+        Cucumber-TestNG birlestiren lib
+
+
+
+        diger POM(Page Object Model)
+        Page Object Model (POM) web otomasyon testlerinde kullanılan bir test tasarım desenidir.
+         Bu tasarım deseni, test senaryolarında kullanılan web sayfalarını temsil eden bir dizi sınıf
+         veya nesneler oluşturarak web sayfalarının test edilmesini daha kolay hale getirir.
+
+        POM, test senaryolarının okunabilirliğini artırır ve bakımını kolaylaştırır.
+        Her web sayfası için ayrı bir sayfa nesnesi oluşturulur ve bu nesne,
+        sayfanın bileşenleri için gereken tüm işlevleri ve özellikleri içerir.
+        Bu nesneler daha sonra test senaryolarında kullanılabilir.
+        Bu modelin kullanılması, testlerin yeniden kullanılabilirliğini artırır,
+        kodun okunabilirliğini ve sürdürülebilirliğini artırır,
+        aynı kodun farklı test senaryolarında tekrar kullanımını sağlar ve
+        web sayfalarındaki değişikliklere daha kolay uyum sağlar
